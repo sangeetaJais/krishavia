@@ -108,7 +108,7 @@ export const products = [
     id: 'zv-006',
     name: 'Premium Minimalist Twisted Hoop Earrings',
     originalPrice: "",
-    sellingPrice: "₹ 199",
+    sellingPrice: "₹ 149",
     category: 'ANTI-TARNISH',
     // tag: 'Ultra Soft',
     imageUrl:
@@ -153,7 +153,7 @@ export const products = [
     id: 'zv-010',
     name: 'Textured Gold Fan Leaf Studs',
     originalPrice: "",
-    sellingPrice: "₹ 249",
+    sellingPrice: "₹ 149",
     category: 'ANTI-TARNISH', 
     // tag: 'Trendy Statement',
     imageUrl:
