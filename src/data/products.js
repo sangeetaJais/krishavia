@@ -164,7 +164,7 @@ export const products = [
     id: 'zv-011',
     name: 'Textured Golden Heart Studs',
     originalPrice: "",
-    sellingPrice: "₹ 249",
+    sellingPrice: "₹149",
     category: 'ANTI-TARNISH', 
     // tag: 'Trendy Statement',
     imageUrl:
