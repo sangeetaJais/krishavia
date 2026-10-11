@@ -146,9 +146,18 @@ const handleRemoveItem = (id) => {
       return newCart;
     });
   };
-const generatedMessage =  cart.length > 0 
-  ? `Hello Team KRISHAVIÁ! 💎✨\n\nI really love your collection on the website and I want to secure my booking for:\n• Product: ${isCartOpen.name}\n• Price: ${isCartOpen.sellingPrice}\n\nHere are my delivery details for Drop 01:\n📌 My Name: \n📍 Address: \n📱 Alternative Contact Number:`
-  : '';
+  const generatedMessage = useMemo(() => {
+    // 🎯 फ़िक्स: यदि कार्ट खाली है या अनफाइंड है, तो खाली स्ट्रिंग भेजें ताकि एरर न आए
+    if (!cart || cart.length === 0) {
+      return "Your shopping bag is currently empty! Please add some aesthetic pieces to start booking. 🛍️✨";
+    }
+    
+    const itemsList = cart.map((item, idx) => `${idx + 1}. ${item.name} - ${item.sellingPrice}`).join('\n');
+    const totalPrice = cart.reduce((total, item) => total + parseInt(item.sellingPrice.toString().replace(/[^\d]/g, '') || 0), 0);
+    
+    return `Hello Team KRISHAVIÁ! 💎✨\n\nI really love your collection on the website and I want to secure my booking for multiple items:\n${itemsList}\n\nTotal Bill Amount: ₹ ${totalPrice} 📦\n\nHere are my delivery details for Drop 01:\n📌 My Name: \n📍 Address: \n📱 Alternative Contact Number:`;
+  }, [cart]);
+
 
 
 
