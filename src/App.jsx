@@ -6,10 +6,7 @@ import ProductGrid from './components/ProductGrid'
 import WhatsAppChannel from './components/WhatsAppChannel'
 import About from './components/About'
 import Footer from './components/Footer'
-import TeaserPage from './components/TeaserPage'
-import RevealPage from './components/RevealPage'
 
-const isStoreLive = true
 
 const STORAGE_KEY = 'zelvora_delivery_location'
 
@@ -197,13 +194,10 @@ function Storefront() {
 }
 
 export default function App() {
-  if (!isStoreLive) {
-    return <TeaserPage />
-  }
+
 
   return (
     <>
-      {/* <RevealPage /> */}
       <Storefront />
 
     </>
