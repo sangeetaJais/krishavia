@@ -43,7 +43,7 @@ export const BUSINESS_PHONE = {
 }
 
 export const INSTAGRAM_URL =
-  'https://www.instagram.com/glow_glace13?utm_source=qr&stkn=MnJxeGVpN3Bubmoy'
+  'https://www.instagram.com/krishaviatheluxury?utm_source=qr&exln=MnJxeGVpN3Bubmoy'
 
 export const WHATSAPP_CHANNEL_URL =
   'https://whatsapp.com/channel/0029Vb8Z5CdA2pL9ZngNks2i'
