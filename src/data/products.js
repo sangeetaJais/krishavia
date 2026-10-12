@@ -208,7 +208,7 @@ export const products = [
     id: 'zv-015',
     name: 'Silver Rhinestone Bow Pearl Drop Earrings',
     originalPrice: "",
-    sellingPrice: "₹ 90",
+    sellingPrice: "₹ 89",
     category: 'KOREAN EARRINGS', 
     // tag: 'Trendy Statement',
     imageUrl:
@@ -219,7 +219,7 @@ export const products = [
     id: 'zv-016',
     name: 'Korean Style Black Enamel Bow Stud Earrings',
     originalPrice: "",
-    sellingPrice: "₹ 90",
+    sellingPrice: "₹ 89",
     category: 'KOREAN EARRINGS', 
     // tag: 'Trendy Statement',
     imageUrl:
