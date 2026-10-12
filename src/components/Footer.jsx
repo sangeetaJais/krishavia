@@ -44,7 +44,7 @@ export default function Footer() {
               className="inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.2em] text-[#2C2C2C]/55 transition-opacity duration-300 hover:opacity-55"
             >
               <InstagramIcon className="h-3.5 w-3.5" />
-              @glow_glace13
+              @krishaviatheluxury
             </a>
             <a
               href={WHATSAPP_CHANNEL_URL}
